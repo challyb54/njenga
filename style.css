@@ -231,6 +231,10 @@ input:checked + label svg.moon {
     line-height: 2;
     padding-left: 0rem;
     margin: 20px auto;
+    padding: 10px 15px;
+    border: 3px solid var(--main-color);
+    border-style:double;
+    border-radius: 2px;
     
     
 }
@@ -265,10 +269,7 @@ span1{
     /* right: 50%; */
     /* height: 100px; */
     /* margin-top:50px; */
-    padding: 10px 15px;
-    border: 3px solid var(--main-color);
-    border-style:double;
-    border-radius: 2px;
+    
     /* border-bottom-left-radius:40px;
     border-top-right-radius:40px; */
     /* -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255, 0.1));
@@ -1428,6 +1429,10 @@ box-shadow: 0 0 1rem var(--main-color);
         font-size:20px;
         padding-left: 0px;
        
+    }
+    span1{
+
+
     }
     .pages{
         margin-top: -50px;
