@@ -8,7 +8,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins',sans-serif;
-    cursor: none;
+    /* cursor: none; */
 
 }
 :root{
@@ -226,12 +226,15 @@ input:checked + label svg.moon {
 
 }
 .home-content h2{
-    font-size: 3.3rem;
+    font-size: 3.6rem;
     font-weight: 100;
     line-height: 2;
     padding-left: 0rem;
     margin: 20px auto;
-    padding: 10px 15px;
+    text-align: center;
+    padding: 0px 5px;
+    
+    
     border: 3px solid var(--main-color);
     border-style:double;
     border-radius: 2px;
@@ -263,6 +266,7 @@ span1{
     background-color: var(--hd-bg-dark-color);
     box-shadow:0 0 1rem var(--main-color);
     background-color: transparent;
+    
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     /* width:340px;
     top: 60px; */
@@ -577,6 +581,9 @@ position: absolute;
 }
 
 @media (max-width: 768px) {
+    .heading h2{
+        font-size: 1rem;
+    }
     .text h1{
         font-size: 35px;
     }
@@ -1211,6 +1218,7 @@ box-shadow: 0 0 1rem var(--main-color);
     }
     .contact_form{
         margin: 5%;
+        width: auto;
         height: 400px;
     }
      .contact_top{
@@ -1415,6 +1423,10 @@ box-shadow: 0 0 1rem var(--main-color);
         grid-template-columns: 1fr;
         
     } 
+    label{
+        margin-left:-45%;
+    }
+
     .header a{ 
         margin-left: 10%;
     }
@@ -1430,7 +1442,8 @@ box-shadow: 0 0 1rem var(--main-color);
         padding-left: 0px;
        
     }
-    span1{
+    .home-content{
+        padding-top: 3%;
 
 
     }
@@ -1483,10 +1496,28 @@ box-shadow: 0 0 1rem var(--main-color);
             margin-top:5rem;
         }
      .home-content h2{
-            font-size: 1.5rem;
+            font-size: 2.4rem;
             font-weight: 100;
             line-height: 1.5;
-            padding-left: 1rem;}
+            text-align: center;
+            width: 90%;
+            padding: 1px;
+
+            /* font-size: 3.3rem;
+            font-weight: 100;
+            line-height: 2;
+            padding-left: 0rem; */
+            margin: 20px auto;
+            
+            border: 3px solid var(--main-color);
+            border-style:double;
+            border-radius: 2px;
+        }
+
+
+
+
+
     .home-content h3{
         font-size: 2.8rem;
         font-weight: 500;
@@ -1501,6 +1532,9 @@ box-shadow: 0 0 1rem var(--main-color);
         line-height: 1.5;
         text-indent: 20px;
         text-align: justify;
+    }
+    .about-header1{
+        font-size: 25px;
     }
 .social-media{
     display: inline-flex;
